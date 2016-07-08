@@ -1,0 +1,15 @@
+{
+  "name": "enslave-me",
+  "version": "1.0.0",
+  "description": "Famous.AF",
+  "main": "index.js",
+  "dependencies": {
+    "express" : "latest",
+    "mongoose" :"latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asante Buil",
+  "license": "ISC"
+}
