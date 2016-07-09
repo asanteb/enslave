@@ -12,4 +12,6 @@ var configDB = require('./config/database.js');
 mongoose.connect(configDB.url);
 
 server.listen(3000);
-require('./live-server.js')(server)
+//require('./live-server.js')(server)
+require('./config/update_user_data.js');
+//require('./config/twitter_config.js'); //(server);
